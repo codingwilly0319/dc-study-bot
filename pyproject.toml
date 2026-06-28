@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dc-study-bot"
+version = "0.1.0"
+description = "A Discord study task bot for a transfer portfolio project."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "discord.py>=2.4,<3",
+]
+
+[project.scripts]
+dc-study-bot = "study_bot.bot:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
