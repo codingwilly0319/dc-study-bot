@@ -46,7 +46,7 @@ dc-study-bot/
 
 ## 系統設計
 
-本專案將功能拆分為三個主要部分：
+本專案將功能拆為三個主要部分：
 
 - `bot.py`：負責 Discord bot 的啟動、slash commands 註冊與互動回覆。
 - `config.py`：負責讀取環境變數與設定檔。
@@ -69,7 +69,7 @@ python -m venv .venv
 DISCORD_TOKEN=your-discord-bot-token
 ```
 
-`.env` 檔案包含敏感資訊，不應上傳到 GitHub。
+`.env` 檔案包含私人token，所以不上傳到 GitHub。
 
 啟動 bot：
 
