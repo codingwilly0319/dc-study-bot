@@ -1,12 +1,12 @@
 # DC Study Bot
 
-DC Study Bot 是一個使用 Python、discord.py 與 SQLite 製作的 Discord 讀書任務管理機器人。專案以 Discord slash commands 作為互動介面，讓使用者可以在 Discord 伺服器中新增、查看、完成與刪除讀書任務，並查看自己的任務完成率。
+DC Study Bot 是一個使用 Python、discord.py 與 SQLite 製作的 Discord 讀書任務管理機器人。以 Discord slash commands 作為互動介面，讓使用者可以在 Discord 伺服器中新增、查看、完成與刪除讀書任務，並查看自己的任務完成率。
 
 ## 專案動機
 
-這個專案的目標不是製作一個只會回覆固定文字的簡單 bot，而是實作一個具有實際用途、資料儲存與基本測試的小型軟體專案。
+本專案的目標是實作一個具有實際用途、資料儲存與基本測試的小型軟體專案。
 
-在準備轉入資工相關領域的過程中，讀書進度管理是一個實際會遇到的問題。因此我將這個需求轉化成 Discord bot，練習 API 串接、指令設計、資料庫操作與專案結構規劃。
+在準備轉入資工相關領域的過程中，讀書進度管理是一個實際會遇到的問題，因此我將這個需求轉化成 Discord bot，練習 API 串接、指令設計、資料庫操作與專案結構規劃。
 
 ## 功能
 
@@ -63,7 +63,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-建立 `.env` 檔案，並參考 `.env.example` 填入 Discord bot token：
+建立 `.env` 檔案，並填入 Discord bot token：
 
 ```text
 DISCORD_TOKEN=your-discord-bot-token
